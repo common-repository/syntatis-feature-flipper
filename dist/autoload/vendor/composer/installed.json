@@ -1,0 +1,478 @@
+{
+    "packages": [
+        {
+            "name": "adbario\/php-dot-notation",
+            "version": "3.3.0",
+            "version_normalized": "3.3.0.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/adbario\/php-dot-notation.git",
+                "reference": "a94ce4493d19ea430baa8d7d210a2c9bd7129fc2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/adbario\/php-dot-notation\/zipball\/a94ce4493d19ea430baa8d7d210a2c9bd7129fc2",
+                "reference": "a94ce4493d19ea430baa8d7d210a2c9bd7129fc2",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "php": "^7.4 || ^8.0"
+            },
+            "require-dev": {
+                "phpstan\/phpstan": "^1.8",
+                "phpunit\/phpunit": "^9.5",
+                "squizlabs\/php_codesniffer": "^3.7"
+            },
+            "time": "2023-02-24T20:27:50+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "src\/helpers.php"
+                ],
+                "psr-4": {
+                    "SSFV\\Adbar\\": "src"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Riku S\u00e4rkinen",
+                    "email": "riku@adbar.io"
+                }
+            ],
+            "description": "PHP dot notation access to arrays",
+            "homepage": "https:\/\/github.com\/adbario\/php-dot-notation",
+            "keywords": [
+                "ArrayAccess",
+                "dotnotation"
+            ],
+            "support": {
+                "issues": "https:\/\/github.com\/adbario\/php-dot-notation\/issues",
+                "source": "https:\/\/github.com\/adbario\/php-dot-notation\/tree\/3.3.0"
+            },
+            "install-path": "..\/adbario\/php-dot-notation"
+        },
+        {
+            "name": "pimple\/pimple",
+            "version": "v3.5.0",
+            "version_normalized": "3.5.0.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/silexphp\/Pimple.git",
+                "reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/silexphp\/Pimple\/zipball\/a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
+                "reference": "a94b3a4db7fb774b3d78dad2315ddc07629e1bed",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "psr\/container": "^1.1 || ^2.0"
+            },
+            "require-dev": {
+                "symfony\/phpunit-bridge": "^5.4@dev"
+            },
+            "time": "2021-10-28T11:13:42+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.4.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SSFV\\Pimple\\": "src\/Pimple\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Fabien Potencier",
+                    "email": "fabien@symfony.com"
+                }
+            ],
+            "description": "Pimple, a simple Dependency Injection Container",
+            "homepage": "https:\/\/pimple.symfony.com",
+            "keywords": [
+                "container",
+                "dependency injection"
+            ],
+            "support": {
+                "source": "https:\/\/github.com\/silexphp\/Pimple\/tree\/v3.5.0"
+            },
+            "install-path": "..\/pimple\/pimple"
+        },
+        {
+            "name": "psr\/container",
+            "version": "2.0.2",
+            "version_normalized": "2.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/php-fig\/container.git",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/php-fig\/container\/zipball\/c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "reference": "c71ecc56dfe541dbd90c5360474fbc405f8d5963",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4.0"
+            },
+            "time": "2021-11-05T16:47:00+00:00",
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SSFV\\Psr\\Container\\": "src\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "PHP-FIG",
+                    "homepage": "https:\/\/www.php-fig.org\/"
+                }
+            ],
+            "description": "Common Container Interface (PHP FIG PSR-11)",
+            "homepage": "https:\/\/github.com\/php-fig\/container",
+            "keywords": [
+                "PSR-11",
+                "container",
+                "container-interface",
+                "container-interop",
+                "psr"
+            ],
+            "support": {
+                "issues": "https:\/\/github.com\/php-fig\/container\/issues",
+                "source": "https:\/\/github.com\/php-fig\/container\/tree\/2.0.2"
+            },
+            "install-path": "..\/psr\/container"
+        },
+        {
+            "name": "symfony\/polyfill-uuid",
+            "version": "v1.31.0",
+            "version_normalized": "1.31.0.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/symfony\/polyfill-uuid.git",
+                "reference": "21533be36c24be3f4b1669c4725c7d1d2bab4ae2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/symfony\/polyfill-uuid\/zipball\/21533be36c24be3f4b1669c4725c7d1d2bab4ae2",
+                "reference": "21533be36c24be3f4b1669c4725c7d1d2bab4ae2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "provide": {
+                "ext-uuid": "*"
+            },
+            "suggest": {
+                "ext-uuid": "For best performance"
+            },
+            "time": "2024-09-09T11:45:10+00:00",
+            "type": "library",
+            "extra": {
+                "thanks": {
+                    "name": "symfony\/polyfill",
+                    "url": "https:\/\/github.com\/symfony\/polyfill"
+                }
+            },
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "bootstrap.php"
+                ],
+                "psr-4": {
+                    "SSFV\\Symfony\\Polyfill\\Uuid\\": ""
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gr\u00e9goire Pineau",
+                    "email": "lyrixx@lyrixx.info"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https:\/\/symfony.com\/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for uuid functions",
+            "homepage": "https:\/\/symfony.com",
+            "keywords": [
+                "compatibility",
+                "polyfill",
+                "portable",
+                "uuid"
+            ],
+            "support": {
+                "source": "https:\/\/github.com\/symfony\/polyfill-uuid\/tree\/v1.31.0"
+            },
+            "funding": [
+                {
+                    "url": "https:\/\/symfony.com\/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https:\/\/github.com\/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https:\/\/tidelift.com\/funding\/github\/packagist\/symfony\/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "..\/symfony\/polyfill-uuid"
+        },
+        {
+            "name": "symfony\/uid",
+            "version": "v5.4.44",
+            "version_normalized": "5.4.44.0",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/symfony\/uid.git",
+                "reference": "b36c8947ee835916eac8c341e124c3de19ff43ca"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/symfony\/uid\/zipball\/b36c8947ee835916eac8c341e124c3de19ff43ca",
+                "reference": "b36c8947ee835916eac8c341e124c3de19ff43ca",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2.5",
+                "symfony\/polyfill-uuid": "^1.15"
+            },
+            "require-dev": {
+                "symfony\/console": "^4.4|^5.0|^6.0"
+            },
+            "time": "2024-09-11T16:39:40+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SSFV\\Symfony\\Component\\Uid\\": ""
+                },
+                "exclude-from-classmap": [
+                    "\/Tests\/"
+                ]
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gr\u00e9goire Pineau",
+                    "email": "lyrixx@lyrixx.info"
+                },
+                {
+                    "name": "Nicolas Grekas",
+                    "email": "p@tchwork.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https:\/\/symfony.com\/contributors"
+                }
+            ],
+            "description": "Provides an object-oriented API to generate and represent UIDs",
+            "homepage": "https:\/\/symfony.com",
+            "keywords": [
+                "UID",
+                "ulid",
+                "uuid"
+            ],
+            "support": {
+                "source": "https:\/\/github.com\/symfony\/uid\/tree\/v5.4.44"
+            },
+            "funding": [
+                {
+                    "url": "https:\/\/symfony.com\/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https:\/\/github.com\/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https:\/\/tidelift.com\/funding\/github\/packagist\/symfony\/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "install-path": "..\/symfony\/uid"
+        },
+        {
+            "name": "syntatis\/codex",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/syntatis\/codex.git",
+                "reference": "233ee916cb6b64dabe8080bf100d6fcef7dba30f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/syntatis\/codex\/zipball\/233ee916cb6b64dabe8080bf100d6fcef7dba30f",
+                "reference": "233ee916cb6b64dabe8080bf100d6fcef7dba30f",
+                "shasum": ""
+            },
+            "require": {
+                "adbario\/php-dot-notation": "^3.3",
+                "php": ">=7.4",
+                "pimple\/pimple": "^3.5"
+            },
+            "require-dev": {
+                "dealerdirect\/phpcodesniffer-composer-installer": "^1.0",
+                "phpcompatibility\/php-compatibility": "^9.3",
+                "phpstan\/extension-installer": "^1.4",
+                "phpstan\/phpstan": "^1.12",
+                "phpstan\/phpstan-phpunit": "^1.4",
+                "phpstan\/phpstan-strict-rules": "^1.6",
+                "phpunit\/phpunit": "^9.6",
+                "roots\/wordpress": "^6.6",
+                "symfony\/var-dumper": "^5.4",
+                "syntatis\/coding-standard": "^1.4",
+                "szepeviktor\/phpstan-wordpress": "^1.3",
+                "wp-phpunit\/wp-phpunit": "^6.6",
+                "yoast\/phpunit-polyfills": "^3.0"
+            },
+            "time": "2024-10-14T16:17:58+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "SSFV\\Codex\\": "app\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Thoriq Firdaus",
+                    "email": "2067467+tfirdaus@users.noreply.github.com",
+                    "homepage": "https:\/\/github.com\/tfirdaus",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Codebase for WordPress extensions",
+            "homepage": "https:\/\/github.com\/syntatis\/codex",
+            "keywords": [
+                "extensions",
+                "facades",
+                "framework",
+                "functions",
+                "helpers",
+                "service-container",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https:\/\/github.com\/syntatis\/codex\/issues",
+                "source": "https:\/\/github.com\/syntatis\/codex\/tree\/main"
+            },
+            "install-path": "..\/syntatis\/codex"
+        },
+        {
+            "name": "syntatis\/codex-settings-provider",
+            "version": "dev-main",
+            "version_normalized": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https:\/\/github.com\/syntatis\/codex-settings-provider.git",
+                "reference": "1979760f1d543758e6e68f8b8c6fe6c45d58993d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https:\/\/api.github.com\/repos\/syntatis\/codex-settings-provider\/zipball\/1979760f1d543758e6e68f8b8c6fe6c45d58993d",
+                "reference": "1979760f1d543758e6e68f8b8c6fe6c45d58993d",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.4"
+            },
+            "require-dev": {
+                "dealerdirect\/phpcodesniffer-composer-installer": "^1.0",
+                "phpcompatibility\/php-compatibility": "^9.3",
+                "phpstan\/extension-installer": "^1.4",
+                "phpstan\/phpstan": "^1.12",
+                "phpstan\/phpstan-phpunit": "^1.4",
+                "phpstan\/phpstan-strict-rules": "^1.6",
+                "phpunit\/phpunit": "^9.6",
+                "roots\/wordpress": "^6.6",
+                "symfony\/var-dumper": "^5.4",
+                "syntatis\/codex": "dev-main",
+                "syntatis\/coding-standard": "^1.4",
+                "szepeviktor\/phpstan-wordpress": "^1.3",
+                "wp-phpunit\/wp-phpunit": "^6.6",
+                "yoast\/phpunit-polyfills": "^3.0"
+            },
+            "time": "2024-10-14T06:02:51+00:00",
+            "default-branch": true,
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "files": [
+                    "inc\/utils.php"
+                ],
+                "psr-4": {
+                    "SSFV\\Codex\\Settings\\": "app\/"
+                }
+            },
+            "notification-url": "https:\/\/packagist.org\/downloads\/",
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Thoriq Firdaus",
+                    "homepage": "https:\/\/github.com\/tfirdaus"
+                }
+            ],
+            "description": "Codex service provider for WordPress Settings API.",
+            "keywords": [
+                "codex",
+                "plugin",
+                "rest-api",
+                "service-provider",
+                "setting",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https:\/\/github.com\/syntatis\/codex-settings-provider\/issues",
+                "source": "https:\/\/github.com\/syntatis\/codex-settings-provider\/tree\/main"
+            },
+            "install-path": "..\/syntatis\/codex-settings-provider"
+        }
+    ],
+    "dev": false,
+    "dev-package-names": []
+}

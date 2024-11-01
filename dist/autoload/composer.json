@@ -1,0 +1,22 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Syntatis\\FeatureFlipper\\": "../../app"
+        }
+    },
+    "autoload-dev": {
+        "files": [
+            "../../inc/bootstrap/dev.php"
+        ]
+    },
+    "require": {
+        "php": ">=7.4",
+        "symfony/uid": "^5.4",
+        "syntatis/codex": "dev-main",
+        "syntatis/codex-settings-provider": "dev-main"
+    },
+    "require-dev": {
+        "filp/whoops": "^2.16",
+        "symfony/var-dumper": "^5.4"
+    }
+}
